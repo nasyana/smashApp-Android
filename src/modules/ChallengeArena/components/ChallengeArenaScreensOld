@@ -1,0 +1,51 @@
+import Header from 'components/Header';
+import React from 'react';
+import { View, Colors } from 'react-native-ui-lib';
+import { TabView, SceneMap, TabBar } from 'react-native-tab-view';
+import { shadow, width } from 'config/scaleAccordingToDevice';
+import { FONTS } from 'config/FoundationConfig';
+
+import PlayersImFollowing from "../PlayersImFollowing";
+import CommunityList from "../CommunityList";
+const ChallengeArenaScreensNew = () => {
+    const [index, setIndex] = React.useState(0);
+    const [routes] = React.useState([
+        { key: 'PlayersImFollowing', title: "Players I'm Following" },
+        { key: 'CommunityList', title: 'Community List' },
+    ]);
+    const renderScene = SceneMap({
+        PlayersImFollowing: PlayersImFollowing,
+        CommunityList: CommunityList,
+
+    });
+    const renderTabBar = (props) => (
+        <TabBar
+            {...props}
+            indicatorStyle={{ backgroundColor: Colors.buttonLink }}
+            style={{ backgroundColor: Colors.white, ...shadow }}
+            activeColor={Colors.buttonLink}
+            inactiveColor={Colors.color6D}
+            labelStyle={{
+                fontFamily: FONTS.heavy,
+                fontSize: 14,
+            }}
+            pressColor={'transparent'}
+        />
+    );
+
+
+    return (
+        <View flex backgroundColor={Colors.background}>
+            <Header title="Graph" back noShadow />
+            <TabView
+                navigationState={{ index, routes }}
+                renderScene={renderScene}
+                onIndexChange={setIndex}
+                initialLayout={{ width: width }}
+                renderTabBar={renderTabBar}
+            />
+        </View>
+    );
+};
+
+export default ChallengeArenaScreensNew;

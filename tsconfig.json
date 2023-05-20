@@ -1,0 +1,26 @@
+{
+  "extends": "expo/tsconfig.base", 
+  "compilerOptions": { 
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,  
+    "strict": true,
+    "baseUrl": "./", 
+    "paths": {
+      "*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@modules/*": ["src/modules/*"],
+      "@translations/*": ["src/translations/*"], 
+      "@hooks/*": ["src/hooks/*"],
+      "@contexts/*": ["src/contexts"], 
+      "@styles/*": ["src/styles"],
+      "@images/*": ["src/images/*"],
+      "@config/*": ["src/config/*"],
+      "@nav/*": ["scr/nav/*"],
+      "@ultis/*": ["src/ultis/*"], 
+      "@svgs/*": ["src/svgs/*"],
+      "@libs/*": ["src/libs/*"]  
+    }, 
+    
+  }
+}

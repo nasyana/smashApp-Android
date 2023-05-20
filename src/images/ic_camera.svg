@@ -1,0 +1,28 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ic_camera">
+<g id="ic">
+<path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M44.7 13.1818H35.1933L30.1333 7H17.8667L12.8067 13.1818H3.3C2.02974 13.1818 1 14.2197 1 15.5V38.6818C1 39.9621 2.02974 41 3.3 41H44.7C45.9703 41 47 39.9621 47 38.6818V15.5C47 14.2197 45.9703 13.1818 44.7 13.1818Z" stroke="url(#paint0_linear)" stroke-width="2" stroke-linecap="round"/>
+<ellipse id="Oval" cx="24" cy="25.5452" rx="10.7333" ry="10.8182" stroke="url(#paint1_linear)" stroke-width="2" stroke-linecap="round"/>
+<ellipse id="Oval_2" cx="40.8666" cy="19.3635" rx="0.766667" ry="0.772727" stroke="url(#paint2_linear)" stroke-width="2" stroke-linecap="round"/>
+<ellipse id="Oval_3" cx="24" cy="25.5455" rx="4.6" ry="4.63636" stroke="url(#paint3_linear)" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="47" y1="7" x2="1" y2="7" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF2A68"/>
+<stop offset="1" stop-color="#FF5E3A"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="34.7333" y1="14.7271" x2="13.2667" y2="14.7271" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF2A68"/>
+<stop offset="1" stop-color="#FF5E3A"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="41.6333" y1="18.5908" x2="40.1" y2="18.5908" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF2A68"/>
+<stop offset="1" stop-color="#FF5E3A"/>
+</linearGradient>
+<linearGradient id="paint3_linear" x1="28.6" y1="20.9092" x2="19.4" y2="20.9092" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF2A68"/>
+<stop offset="1" stop-color="#FF5E3A"/>
+</linearGradient>
+</defs>
+</svg>

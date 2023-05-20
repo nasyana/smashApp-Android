@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "900778037571",
+    "firebase_url": "https://smash-app-81ca9.firebaseio.com",
+    "project_id": "smash-app-81ca9",
+    "storage_bucket": "smash-app-81ca9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900778037571:android:cf0b75a8dcd92710",
+        "android_client_info": {
+          "package_name": "com.smashapp.challenges"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900778037571-q44ot6e8e874hjummlb8iaj160h6kebd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvvlHvFjoB5z1kohCPLmrX2AVKxcnj-Zo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900778037571-q44ot6e8e874hjummlb8iaj160h6kebd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900778037571:android:69e11f7c42ed9d6175dff6",
+        "android_client_info": {
+          "package_name": "com.smashapp.challenges"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900778037571-q44ot6e8e874hjummlb8iaj160h6kebd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvvlHvFjoB5z1kohCPLmrX2AVKxcnj-Zo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900778037571-q44ot6e8e874hjummlb8iaj160h6kebd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
